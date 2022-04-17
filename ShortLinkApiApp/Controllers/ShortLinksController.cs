@@ -178,7 +178,7 @@ namespace ShortLinksApiApp.Controllers
         ///     }
         ///
         /// </remarks>
-        /// <response code="204">Returned if the entry was updated to the database</response>
+        /// <response code="204">Returned if the entry was deleted to the database</response>
         /// <response code="400">Returned if the object was sent with a non-existent id</response>
         [HttpDelete("{id}")]
         [ProducesResponseType(StatusCodes.Status204NoContent)]
